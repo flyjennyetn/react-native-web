@@ -1,0 +1,59 @@
+{
+  "name": "qsndyr",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "configureJPush": "node node_modules/jpush-react-native/JPushConfiguration.js",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "web": "webpack-dev-server --port 3000 --config web/webpack.config.dev.js --inline --hot --colors --quiet",
+    "build-web": "webpack --colors --display-error-details --config web/webpack.config.prod.js"
+  },
+  "dependencies": {
+    "fetch-jsonp": "^1.0.3",
+    "jpush-react-native": "^1.2.6",
+    "moment": "^2.15.1",
+    "qs": "^6.2.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-native": "0.38.1",
+    "react-native-barcodescanner": "^3.1.1",
+    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
+    "react-native-drawer-layout": "^1.1.0",
+    "react-native-gesture-password": "^0.2.0",
+    "react-native-image-picker": "^0.24.0",
+    "react-native-navbar": "^1.5.4",
+    "react-native-router-flux": "^3.37.0",
+    "react-native-tab-navigator": "^0.3.3",
+    "react-native-web": "0.0.55",
+    "react-native-wechat": "^1.7.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "redux": "^3.6.0",
+    "redux-actions": "^0.10.0",
+    "redux-saga": "^0.12.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-jest": "17.0.2",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-import": "^1.0.1",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2015-loose": "^8.0.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-native": "^1.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.20.0",
+    "jest": "17.0.3",
+    "react-test-renderer": "15.4.1",
+    "url-loader": "0.5.7",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "1.14.1"
+  }
+}
